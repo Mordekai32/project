@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bar & Restaurant of Mordekai</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="bar.js"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans scroll-smooth">
+  
+  <!-- Header -->
+  <header class="bg-white shadow-md fixed w-full z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-extrabold text-blue-700">Bar&Grill of Mordekai</h1>
+      <nav class="space-x-6 hidden md:block">
+        <a href="#about" class="text-gray-700 hover:text-blue-600 transition">About</a>
+        <a href="#menu" class="text-gray-700 hover:text-blue-600 transition">Menu</a>
+        <a href="#gallery" class="text-gray-700 hover:text-blue-600 transition">Gallery</a>
+        <a href="#reservation" class="text-gray-700 hover:text-blue-600 transition">Reserve</a>
+        <a href="#contact" class="text-gray-700 hover:text-blue-600 transition">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="h-screen bg-cover bg-center flex items-center justify-center text-white" style="background-image: url('/mnt/data/a.jfif');">
+    <div class="text-center backdrop-blur-sm bg-black/50 px-8 py-12 rounded-lg shadow-lg max-w-xl">
+      <h2 class="text-5xl md:text-6xl font-extrabold">Welcome to Bar & Grill of Mordekai</h2>
+      <p class="mt-6 text-xl md:text-2xl font-light">Fine Dining & Cocktails</p>
+      <a href="#reservation" class="mt-8 inline-block bg-blue-600 text-white px-8 py-3 rounded-full text-lg font-medium hover:bg-blue-700 transition">Book a Table</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-6xl mx-auto py-24 px-6">
+    <h2 class="text-4xl font-bold text-center text-blue-800 mb-8">About Us</h2>
+    <p class="text-center max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed">
+      We are a modern bar and restaurant offering exquisite dishes, signature cocktails, and a vibrant atmosphere.
+      Join us for a culinary experience like no other.
+    </p>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="bg-blue-50 py-24 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-bold text-center text-blue-800 mb-12">Our Menu</h2>
+      <div class="grid md:grid-cols-2 gap-10" id="menu-items">
+        <!-- JavaScript will populate this -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="py-24 px-6 bg-white">
+    <h2 class="text-4xl font-bold text-center text-blue-800 mb-12">Gallery</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      <img src="/mnt/data/a.jfif" class="w-full h-60 object-cover rounded-lg shadow-md" alt="Bar Interior 1">
+      <img src="/mnt/data/b.jfif" class="w-full h-60 object-cover rounded-lg shadow-md" alt="Bar Interior 2">
+      <img src="/mnt/data/c.jfif" class="w-full h-60 object-cover rounded-lg shadow-md" alt="Bar Interior 3">
+    </div>
+  </section>
+
+  <!-- Reservation Form -->
+  <section id="reservation" class="bg-blue-600 text-white py-24 px-6">
+    <h2 class="text-4xl font-bold text-center mb-10">Reserve a Table</h2>
+    <form id="reservationForm" class="max-w-2xl mx-auto space-y-6 bg-white p-10 rounded-lg shadow-lg text-gray-800">
+      <input type="text" placeholder="Full Name" class="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" required />
+      <input type="email" placeholder="Email Address" class="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" required />
+      <input type="date" class="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" required />
+      <input type="time" class="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" required />
+      <input type="number" placeholder="Number of Guests" class="w-full border border-gray-300 px-4 py-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400" required />
+      <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition font-medium">Submit</button>
+    </form>
+  </section>
+
+  <!-- Contact Footer -->
+  <footer id="contact" class="bg-blue-900 text-white py-12 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-2xl font-bold mb-4">Get in Touch</h2>
+      <p>123 Main Street, Kigali City, RWANDA</p>
+      <p>Email: umordekai4.com | Phone: 0796381024</p>
+      <p class="mt-8 text-sm text-blue-200">&copy; 2025 Bar&Grill Mordekai. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
