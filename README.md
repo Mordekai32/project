@@ -1,26 +1,44 @@
-# Hi, I'm Mordekai 👋
+# 👋 Hello, I'm UKOBUKEYE Mordekai 🇷🇼
+### 🚀 Full-Stack Developer | Software Engineer | Tech Enthusiast
 
-Full Stack Developer | Python & JavaScript | Open Source Contributor
-
----
-
-## Skills
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![HTML](https://img.shields.io/badge/HTML5-orange)
-![CSS](https://img.shields.io/badge/CSS3-blue)
+I am a professional **Software Developer** focused on building high-performance web applications that solve real-world business problems. I specialize in the **MERN Stack** (MongoDB, Express, React, Node.js) and **TypeScript**.
 
 ---
 
-## Projects
-- [Project1](https://github.com/Mordekai/project1) - project
-- [Project2](https://github.com/Mordekai/project2) - React-project
-- - [Project2](https://github.com/Mordekai/project2) - ubwuzu
+### 🛠️ My Technical Toolbox
+
+| Category | Tech Stack |
+| :--- | :--- |
+| **Frontend** | React.js, TypeScript, Next.js, HTML5, CSS3, Tailwind CSS |
+| **Backend** | Node.js, Express.js, REST APIs |
+| **Database** | MySQL, PostgreSQL, MongoDB |
+| **DevOps & Tools** | Git, GitHub, Postman, Vercel, XLSX Data Engine |
 
 ---
 
-## Connect with me
-- 📍 Location: Kigali, Rwanda  
-- 📧 Email: mordekai893@gmail.com
-- [Instagram](https://www.instagram.com/M.blaise_320/)
-- [Facebook](https://www.facebook.com/UMMordekai)
+### 📂 Featured Project: SIMS PRO V6.0
+**Spare Parts Inventory Management System**
+* **Description:** A professional-grade inventory system featuring real-time dashboard analytics, stock movement history, and automated stock rebalancing.
+* **Key Feature:** Implemented complex SQL logic to ensure data integrity during transaction rollbacks.
+* **Tech:** React, Node.js, MySQL, TypeScript.
+* [🔗 View Repository](https://github.com/YOUR_USERNAME/sims-pro-v6)
+
+---
+
+### 🌐 Connect With Me
+
+I am open to collaborations, freelance projects, and networking!
+
+* **📧 Email:** [mordekai893@gmail.com](mailto:mordekai893@gmail.com)
+* **📸 Instagram:** [@M.blaise_320](https://instagram.com/M.blaise_320)
+* **👤 Facebook:** [UM Mordekai](https://facebook.com/UM.Mordekai)
+* **🎵 TikTok:** [@Mordekai](https://tiktok.com/@Mordekai)
+* **📺 YouTube:** [Mordekai](https://youtube.com/@Mordekai)
+
+---
+
+### ⚡ Fun Fact
+"When I'm not coding robust systems like SIMS PRO, I'm likely exploring new tech trends or sharing content on my social platforms to inspire the next generation of African developers."
+
+---
+**Maintained by UKOBUKEYE Mordekai © 2025**
